@@ -35,16 +35,16 @@ This application was successfully deployed and used during DPGU SMR's actual stu
 📱 Fully Responsive.
 
 ## 🛠 Tech Stack
-- React + Vite
-- Node.js + Express
-- MongoDB Atlas
-- Git
-- Docker
-- AWS EC2
-- Elastic IP
-- AWS Secrets Manager
-- IAM
-- Docker Hub
+- ⚛️ React + Vite
+- 🟢 Node.js + Express
+- 🍃 MongoDB Atlas
+- 🐋 Docker
+- 𖦥 Git
+- ⛁ AWS EC2
+- 🖧 Elastic IP
+- 🔐 AWS Secrets Manager
+- 🔑 IAM
+- 🐳 Docker Hub
 
 ## 🚀 Deployment Journey
 Local Development → Docker → Docker Hub → AWS EC2 → Secrets Manager → MongoDB Atlas → Production.
