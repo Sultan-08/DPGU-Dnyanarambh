@@ -1,4 +1,4 @@
-# 🚧 Challenges Solved
+# 🚧 Challenges Solved :
 
 ✅ MongoDB Atlas IP Whitelisting.
 
@@ -22,20 +22,24 @@
 
 
 
-## Lessons Learned
+# 📚 Lessons Learned :
 
-✔ Docker Image Creation.
+✔ Building production-ready Docker images.
 
-✔ Production Deployment.
+✔ Deploying applications on AWS EC2.
 
-✔ Linux Server Management.
+✔ Secure secret management using AWS Secrets Manager.
 
-✔ Cloud Security.
+✔ MongoDB Atlas configuration.
 
-✔ AWS IAM.
+✔ Linux server administration.
 
-✔ Secrets Management.
+✔ IAM Roles & Policies.
 
-✔ Debugging Production Issues.
+✔ Cloud networking.
 
-✔ Cloud Networking.
+✔ Debugging deployment issues.
+
+✔ Docker container lifecycle management.
+
+✔ Real-world software deployment.
