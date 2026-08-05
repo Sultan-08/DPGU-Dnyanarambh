@@ -1,38 +1,41 @@
-## Challenges
+# 🚧 Challenges Solved
 
-• MongoDB Atlas IP Whitelisting
+✅ MongoDB Atlas IP Whitelisting.
 
-• Docker Environment Variables
+✅ Docker Image Optimization.
 
-• AWS Secrets Manager Integration
+✅ Environment Variable Management.
 
-• IAM Role Configuration
+✅ AWS Secrets Manager Integration.
 
-• Docker Networking
+✅ IAM Role Configuration.
 
-• EC2 Security Groups
+✅ Docker Networking.
 
-• Elastic IP Configuration
+✅ EC2 Security Groups.
 
-• Production Deployment
+✅ Elastic IP Configuration.
 
-• Container Lifecycle Management
+✅ Production Deployment.
+
+✅ Linux Server Troubleshooting.
+
 
 
 ## Lessons Learned
 
-✔ Docker Image Creation
+✔ Docker Image Creation.
 
-✔ Production Deployment
+✔ Production Deployment.
 
-✔ Linux Server Management
+✔ Linux Server Management.
 
-✔ Cloud Security
+✔ Cloud Security.
 
-✔ AWS IAM
+✔ AWS IAM.
 
-✔ Secrets Management
+✔ Secrets Management.
 
-✔ Debugging Production Issues
+✔ Debugging Production Issues.
 
-✔ Cloud Networking
+✔ Cloud Networking.
