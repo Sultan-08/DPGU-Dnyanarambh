@@ -3,24 +3,32 @@
                     Users
                       │
                       ▼
-            React Frontend (Vite)
+             React Frontend (Vite)
                       │
                       ▼
-             Express REST API
-                      │
-            JWT Authentication
+              Express REST API
                       │
                       ▼
-              MongoDB Atlas
+              JWT Authentication
+                      │
+                      ▼
+                MongoDB Atlas
                       ▲
+# Docker to AWS
+
+              Docker Desktop Image
                       │
-─────────────────────────────────────────────
-               Docker Container
-                      │
+                      ▼
                Docker Hub Image
                       │
-                AWS EC2 Instance
+                      ▼
+               AWS EC2 Instance
                       │
+                      ▼
                Elastic IP Address
                       │
+                      ▼
+               Run Docker Container
+                      │
+                      ▼
                 Internet Access
