@@ -1,8 +1,18 @@
-# 🎓 Dnyanarambh – Student Induction Management Platform
+# 🎓 Dnyanarambh – Student Induction Management Platform.
 
 > A production-ready web platform developed for DPGU SMR 15-day student induction program.
 
 > **Note:** This repository is a project showcase and case study. The application source code is intentionally kept private because it was developed for institutional use.
+
+![React](https://img.shields.io/badge/React-19-blue)
+![NodeJS](https://img.shields.io/badge/Node.js-20-green)
+![Express](https://img.shields.io/badge/Express.js-grey)
+![MongoDB](https://img.shields.io/badge/MongoDB-Atlas-green)
+![Docker](https://img.shields.io/badge/Docker-Containerized-blue)
+![AWS](https://img.shields.io/badge/AWS-EC2-orange)
+![Cloud](https://img.shields.io/badge/Cloud-AWS-yellow)
+![License](https://img.shields.io/badge/License-MIT-blue)
+![GIT](https://img.shields.io/badge/GIT-orange)
 
 ## 📖 Problem Statement
 Every academic year, DPGU welcomes hundreds of first-year students through its 15-day induction program called **Dnyanarambh**.
@@ -42,15 +52,5 @@ Local Development → Docker → Docker Hub → AWS EC2 → Secrets Manager → 
 ## 🔒 Source Code Availability
 The source code is intentionally private because it was developed for institutional use. This repository demonstrates the project's architecture, deployment strategy, and engineering decisions.
 
-## Technologies 
-![React](https://img.shields.io/badge/React-19-blue)
-![NodeJS](https://img.shields.io/badge/Node.js-20-green)
-![Express](https://img.shields.io/badge/Express.js-black)
-![MongoDB](https://img.shields.io/badge/MongoDB-Atlas-green)
-![Docker](https://img.shields.io/badge/Docker-Containerized-blue)
-![AWS](https://img.shields.io/badge/AWS-EC2-orange)
-![Cloud](https://img.shields.io/badge/Cloud-AWS-yellow)
-![License](https://img.shields.io/badge/License-Showcase-blue)
-
 ## 👨‍💻 Author
-Sultan Mulani
+> [Sultan Mulani](https://github.com/Sultan-08)
