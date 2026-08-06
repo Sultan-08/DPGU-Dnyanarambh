@@ -1,0 +1,50 @@
+                ┌──────────────────────────┐
+                │   Local Machine          │
+                │  (Code Changes)          │
+                └────────────┬─────────────┘
+                             │
+                    git push origin master
+                             │
+                             ▼
+                ┌──────────────────────────┐
+                │      GitHub Repository   │
+                │      (master branch)     │
+                └────────────┬─────────────┘
+                             │
+                    GitHub Actions Trigger
+                             │
+                             ▼
+                ┌──────────────────────────┐
+                │      GitHub Actions      │
+                │                          │
+                │ 1. Checkout Code         │
+                │ 2. Login Docker Hub      │
+                │ 3. Build Docker Image    │
+                │ 4. Push Private Image    │
+                └────────────┬─────────────┘
+                             │
+                             ▼
+                ┌──────────────────────────┐
+                │ Private Docker Hub Repo  │
+                │ dnyanarambh-cicd         │
+                └────────────┬─────────────┘
+                             │
+                       SSH into EC2
+                             │
+                             ▼
+                ┌──────────────────────────┐
+                │        EC2 Instance      │
+                │                          │
+                │ start-app.sh             │
+                │ ├─ Fetch AWS Secrets     │
+                │ ├─ Docker Login*         │
+                │ ├─ Pull Latest Image     │
+                │ ├─ Stop Old Container    │
+                │ ├─ Remove Old Container  │
+                │ └─ Start New Container   │
+                └────────────┬─────────────┘
+                             │
+                             ▼
+                ┌──────────────────────────┐
+                │   Dnyanarambh Live App   │
+                └──────────────────────────┘
