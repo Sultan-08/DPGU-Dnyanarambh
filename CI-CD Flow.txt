@@ -1,50 +1,82 @@
-                ┌──────────────────────────┐
-                │   Local Machine          │
-                │  (Code Changes)          │
-                └────────────┬─────────────┘
-                             │
-                    git push origin master
-                             │
-                             ▼
-                ┌──────────────────────────┐
-                │      GitHub Repository   │
-                │      (master branch)     │
-                └────────────┬─────────────┘
-                             │
-                    GitHub Actions Trigger
-                             │
-                             ▼
-                ┌──────────────────────────┐
-                │      GitHub Actions      │
-                │                          │
-                │ 1. Checkout Code         │
-                │ 2. Login Docker Hub      │
-                │ 3. Build Docker Image    │
-                │ 4. Push Private Image    │
-                └────────────┬─────────────┘
-                             │
-                             ▼
-                ┌──────────────────────────┐
-                │ Private Docker Hub Repo  │
-                │ dnyanarambh-cicd         │
-                └────────────┬─────────────┘
-                             │
-                       SSH into EC2
-                             │
-                             ▼
-                ┌──────────────────────────┐
-                │        EC2 Instance      │
-                │                          │
-                │ start-app.sh             │
-                │ ├─ Fetch AWS Secrets     │
-                │ ├─ Docker Login*         │
-                │ ├─ Pull Latest Image     │
-                │ ├─ Stop Old Container    │
-                │ ├─ Remove Old Container  │
-                │ └─ Start New Container   │
-                └────────────┬─────────────┘
-                             │
-                             ▼
-                ┌──────────────────────────┐
-                │   Dnyanarambh Live App   │
-                └──────────────────────────┘
+                    LOCAL MACHINE
+                         │
+                         │ git push ────────────┐
+                         │                      │
+                         ▼                      ▲
+                 ┌─────────────────┐            │
+                 │  master branch  │            │
+                 │                 │            │
+                 │  Development /  │            │
+                 │    Testing      │            │
+                 └────────┬────────┘            ▲
+                          │                     │
+                     Test changes ──────────────┘
+                          │
+                          │ Create Pull Request
+                          │
+                          ▼
+                 ┌─────────────────┐
+                 │  Pull Request   │
+                 │                 │
+                 │  master → main  │
+                 └────────┬────────┘
+                          │
+                    Merge on GitHub
+                          │
+                          ▼
+                 ┌─────────────────┐
+                 │   main branch   │
+                 │                 │
+                 │   Production    │
+                 └────────┬────────┘
+                          │
+                  Push to main detected
+                          │
+                          ▼
+                 ┌─────────────────┐
+                 │ GitHub Actions  │
+                 └────────┬────────┘
+                          │
+              ┌───────────┴───────────┐
+              ▼                       ▼
+       Checkout main          Login to Docker Hub
+              │                       │
+              └───────────┬───────────┘
+                          ▼
+                          │
+                 Build Docker Image
+                          │
+                          ▼
+                          │
+              Push Image to Docker Hub
+                          │
+                          ▼   
+                          │
+                         SSH
+                          │ 
+                          ▼
+                       AWS EC2
+                          │
+                          ▼
+                     start-app.sh
+                          │
+                          │
+                 ┌────────┴────────┐
+                 ▼                 ▼
+       AWS Secrets Manager    Docker Pull
+                 │                 │
+                 ▼                 ▼
+           Get Secrets        Latest Image
+                 │                 │
+                 └────────┬────────┘
+                          │
+                          ▼
+                  Remove Old Container
+                          │
+                          ▼
+                   Run New Container
+                          │
+                          ▼
+                🚀 APPLICATION LIVE
+
+
