@@ -44,15 +44,15 @@
               └───────────┬───────────┘
                           ▼
                           │
-                 Build Docker Image
+  Job Run 1:     Build Docker Image
                           │
                           ▼
                           │
-              Push Image to Docker Hub
+  Job Run 2:  Push Image to Docker Hub
                           │
                           ▼   
                           │
-                         SSH
+  Job Run 3:             SSH
                           │ 
                           ▼
                        AWS EC2
