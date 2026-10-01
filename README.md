@@ -46,8 +46,11 @@ This application was successfully deployed and used during DPGU SMR's actual stu
 - 🔑 IAM
 - 🐳 Docker Hub
 
-## 🚀 Deployment Journey
-Local Development → Docker → Docker Hub → AWS EC2 → Secrets Manager → MongoDB Atlas → Production.
+## 🚀 Live Deployment Journey
+- Frontend: Cloudflare Pages
+- Backend: Render
+- Database: MongoDB Atlas
+- Source Control: GitHub
 
 ## 🔒 Source Code Availability
 The source code is intentionally private because it was developed for institutional use. This repository demonstrates the project's architecture, deployment strategy, and engineering decisions.
