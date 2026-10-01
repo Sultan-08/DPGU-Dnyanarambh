@@ -1,3 +1,10 @@
+⚠️ Historical Deployment Pipeline :
+
+Note: The CI/CD pipeline documented below represents the deployment architecture used when Dnyanarambh was deployed specifically for the college induction event. This setup used Docker, AWS EC2, GitHub Actions, Docker Hub, and AWS services to deploy and run the application.
+
+This pipeline is not connected to the current live deployment of Dnyanarambh.
+
+
                     LOCAL MACHINE
                          │
                          │ git push ────────────┐
