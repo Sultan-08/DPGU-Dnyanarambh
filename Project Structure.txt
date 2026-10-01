@@ -1,0 +1,41 @@
+Dnyanarambh/
+│
+├── .github/
+│   └── workflows/
+│       └── deploy.yml
+│
+├── backend/
+│   ├── config/
+│   ├── controllers/
+│   ├── middleware/
+│   ├── models/
+│   ├── routes/
+│   ├── utils/
+│   ├── seed.js
+│   ├── server.js
+│   ├── package.json
+│   └── package-lock.json
+│
+├── src/
+│   ├── assets/
+│   ├── components/
+│   ├── App.tsx
+│   ├── index.css
+│   ├── main.tsx
+│   ├── types.ts
+│   └── vite-env.d.ts
+│
+├── public/
+│
+├── dist/
+│
+├── .dockerignore
+├── .env
+├── .gitignore
+├── Dockerfile
+├── index.html
+├── package.json
+├── package-lock.json
+├── README.md
+├── tsconfig.json
+└── vite.config.ts
