@@ -25,6 +25,7 @@ The goal of this project was to digitalize the complete induction workflow throu
 This application was successfully deployed and used during DPGU SMR's actual student induction program.
 
 🌐 **Live Demo :** [Click here to view the live application](https://dnyanarambh.pages.dev/)
+
 **Demo Credentials :**
 * **Staff Login :** Username: `staff@dpgu.ac.in` | Password: `staff2026`
 * **Student Login :** Username: `student@dpgu.ac.in` | Password: `9123456789`
