@@ -31,15 +31,16 @@ This application was successfully deployed and used during DPGU SMR's actual stu
 * **Student Login :** Username: `student@dpgu.ac.in` | Password: `9123456789`
 
 ## ✨ Features
-🏢 Year-wise Administration.
-👨‍🎓 Student Registration.
-🔐 Secure Authentication.
-📅 Interactive 15-Day Timeline.
-📍 Venue & Schedule Management.
-🔄 Multi-Year Reusability.
-☁ Production Cloud Deployment.
-📱 Fully Responsive.
+- 🏢 Year-wise Administration.
+- 👨‍🎓 Student Registration.
+- 🔐 Secure Authentication.
+- 📅 Interactive 15-Day Timeline.
+- 📍 Venue & Schedule Management.
+- 🔄 Multi-Year Reusability.
+- ☁ Production Cloud Deployment.
+- 📱 Fully Responsive.
 
+<!--
 ## 🛠 Tech Stack
 - ⚛️ React + Vite
 - 🟢 Node.js + Express
@@ -51,6 +52,14 @@ This application was successfully deployed and used during DPGU SMR's actual stu
 - 🔐 AWS Secrets Manager
 - 🔑 IAM
 - 🐳 Docker Hub
+-->
+
+## 🛠️ Technology Stack
+
+Explore the technologies and tools used to build and deploy Dnyanarambh.
+
+[**View Technology Stack →**](Tech-Stack.md)
+
 
 ## 🚀 Live Deployment Journey
 - Frontend: Cloudflare Pages
